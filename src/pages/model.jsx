@@ -60,8 +60,8 @@ export default function Model() {
         style={{ width: "100vw", height: '100vh' }}
       >
         {[
-          { label: 'upper abs', position: '-0.4m 2.6m 1m', normal: '-0.4m 2.6m 1m', orbit: '0deg 84.56856deg 0.0004000m', target: '0m 2.2m -2.5m' },
-          { label: 'lower abs', position: '-0.4m 2.29m 1m', normal: '-0.3m 2.2m 1m', orbit: '0deg 84.56856deg 0.0004000m', target: '0m 1.89m -2.5m' },
+          { label: 'upper abs', position: '0m 2.6m 1m', normal: '-0.4m 2.6m 1m', orbit: '0deg 84.56856deg 0.0004000m', target: '0m 2.2m -2.5m' },
+          { label: 'lower abs', position: '0m 2.29m 1m', normal: '-0.3m 2.2m 1m', orbit: '0deg 84.56856deg 0.0004000m', target: '0m 1.89m -2.5m' },
           { label: 'quadriceps',
             position: '-0.6m 1.8m 1m',
             normal: '-0.6m 1.8m 1m',
