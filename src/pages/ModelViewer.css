@@ -18,7 +18,9 @@
     height: max-content;
     transform: translate3d(-50%, -50%, 0);
 } */
-.model-container {
+
+
+/* .model-container {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -27,4 +29,18 @@
 model-viewer {
     width: 100%;
     height: 100%;
-}
+} */
+
+.model-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .view-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
