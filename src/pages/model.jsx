@@ -77,8 +77,8 @@ export default function Model() {
         { label:    'forearm muscles',
           position: '-1.19m 2.6m 1m',
           normal:   '-1.19m 2.6m 1m',
-          orbit:    '-75deg 65deg 0.06213665m',
-          target:   '1m 1.5m -0.5m' },
+          orbit:    '18deg 100deg 1m',
+          target:   '-1.5m 2.8m -2.5m' },
 
         { label:    'triceps',
           position: '-0.9m 2.9m 1m',
