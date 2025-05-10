@@ -32,7 +32,7 @@ export default function Model() {
       alt="Human muscular model"
       ar
       // auto-rotate
-      camera-controls
+      // camera-controls
       exposure="1"
       shadow-intensity="1"
       style={{width: "100vw", height: '100vh'}}
@@ -42,12 +42,12 @@ export default function Model() {
           position: '-0.4m 2.6m 1m',
           normal: '-0.4m 2.6m 1m',
           orbit: '0deg 84.56856deg 0.0004000m',
-          target: '0m 2.6m -1m' },
+          target: '0m 2.2m -2.5m' },
         { label: 'lower abs',
           position: '-0.4m 2.29m 1m',
           normal: '-0.3m 2.2m 1m',
           orbit: '0deg 84.56856deg 0.0004000m',
-          target: '0m 2.2m -1m' },
+          target: '0m 1.89m -2.5m' },
         { label: 'quadriceps',
           position: '-0.6m 1.8m 1m',
           normal: '-0.6m 1.8m 1m',
@@ -81,18 +81,18 @@ export default function Model() {
         { label: 'triceps',
           position: '-0.9m 2.9m 1m',
           normal: '-0.9m 2.9m 1m',
-          orbit: '-80deg 55deg 0.06213665m',
-          target: '1.8m 1m -0.5m' },
-        // { label: 'biceps',
-        //   position: '-0.0658m 0.1786m -0.0183m',
-        //   normal: '0.7857152m 0.4059967m 0.46671m',
-        //   orbit: '53.28236deg 95.91318deg 0.1102844m',
-        //   target: '-0.07579391m 0.1393538m -0.00851791m' },
-        // { label: 'posterior deltoid',
-        //   position: '0.02610224m 0.01458751m -0.004978945m',
-        //   normal: '-0.602551m 0.7856147m -0.1405055m',
-        //   orbit: '-78.89725deg 77.17752deg 0.08451112m',
-        //   target: '0.02610223m 0.0145875m -0.004978945m' },
+          orbit: '-70deg 55deg 0.06213665m',
+          target: '1.7m 1m -0.8m' },
+        { label: 'biceps',
+          position: '0.9m 2.9m 1m',
+          normal: '0.9m 2.9m 1m',
+          orbit: '-18deg 100deg 1m',
+          target: '1.5m 3.25m -2.5m' },
+        { label: 'posterior deltoid',
+          position: '-1.1m 2.95m -0.1749m',
+          normal: '-1.1m 2.95m -0.1749m',
+          orbit: '-138deg 55.1798deg 0.04504082m',
+          target: '1.5m 0.98m 2m' },
         // { label: 'lateeral deltoid',
         //   position: '-0.1053838m 0.01610652m 0.1076345m',
         //   normal: '-0.624763m 0.5176854m 0.5845283m',
