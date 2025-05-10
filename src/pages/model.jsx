@@ -30,9 +30,9 @@ export default function Model() {
         id="hotspot-camera-view-demo"
       src="afi.glb"
       alt="Human muscular model"
-      // ar
+      ar
       // auto-rotate
-      // camera-controls
+      camera-controls
       exposure="1"
       shadow-intensity="1"
       style={{width: "100vw", height: '100vh'}}
@@ -49,23 +49,23 @@ export default function Model() {
           orbit: '0deg 84.56856deg 0.0004000m',
           target: '0m 2.2m -1m' },
         { label: 'quadriceps',
-          position: '-0.4m 1.8m 1m',
-          normal: '-0.4m 1.8m 1m',
+          position: '-0.6m 1.8m 1m',
+          normal: '-0.6m 1.8m 1m',
           orbit: '0deg 84.74043deg 0.07104211m',
           target: '0m 1.4m -1.8m' },
         { label: 'calves',
           position: '0.6m 0.764865m -0.0749m',
-          normal: '0.7045857m 0.1997957m -0.6809117m',
+          normal: '0.6m 0.764865m -0.0749m',
           orbit: '-180deg 88.17818deg 0.07090651m',
           target: '0m 0.5m 1m' },
         { label: 'hamsstrings',
-          position: '0.8m 1.15m -1m',
-          normal: '0.8m 1.15m -1m',
+          position: '0.8m 1.5m -0.0749m',
+          normal: '0.8m 1.5m -0.0749m',
           orbit: '-180deg 80.83521deg 0.07090651m',
           target: '0m 1m 2m' },
         { label: 'gluts',
-          position: '0.8m 1.7m -1m',
-          normal: '0.8m 1.7m -1m',
+          position: '0.7m 1.9m -0.1749m',
+          normal: '0.7m 1.9m -0.1749m',
           orbit: '-180deg 90.1798deg 0.04504082m',
           target: '0m 1.9m 2m' },
         { label: 'pectoralis major',
