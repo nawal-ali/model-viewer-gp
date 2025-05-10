@@ -120,11 +120,11 @@ export default function Model() {
           normal:   '0.9m 3m -0.0749m',
           orbit:    '-180deg 80deg 0.07090651m',
           target:   '0m 2.189m 2.05m' },
-        // { label: 'obliques',
-        //   position: '-0.1053838m 0.01610652m 0.1076345m',ne 
-        //   normal: '-0.624763m 0.5176854m 0.5845283m',
-        //   orbit: '10.89188deg 119.9775deg 0.03543022m',
-        //   target: '-0.1053838m 0.01610652m 0.1076345m' }        
+        { label: 'obliques',
+          position: '0.2m 2.55m 1m',
+          normal: '0.2m 2.55m 1m',
+          orbit: '45deg 84.56856deg 0.0004000m',
+          target: '-1.75m 2.2m -1.95m' }       
       ].map((hotspot, index) => (
         <button
           key={index}
